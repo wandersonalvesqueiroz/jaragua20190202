@@ -1,0 +1,7 @@
+COM_CLUBS = "Clube de Vantagens"
+COM_CLUBS_CLUBS = "Clube de Vantagens"
+COM_CLUBS_CATEGORIES = "Categorias"
+
+
+COM_CLUBS_CLUBS_VIEW_DEFAULT_TITLE = "Clube de Vantagens"
+COM_CLUBS_CLUBS_VIEW_DEFAULT_DESC = "Clube de Vantagens"

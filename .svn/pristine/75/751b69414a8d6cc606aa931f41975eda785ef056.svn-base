@@ -1,0 +1,31 @@
+COM_CLUBS = "Clube de Vantagens"
+COM_CLUBS_CLUBS = "Clube de Vantagens"
+COM_CLUBS_CATEGORIES = "Categorias"
+
+COM_CLUBS_MANAGER_CLUBS = "Gerenciador de Clube de Vantagens"
+COM_CLUBS_SUBMENU_CLUBS = "Clube de Vantagens"
+COM_CLUBS_SUBMENU_CATEGORIES = "Categorias"
+
+JGLOBAL_CATEGORY = "Categoria"
+
+
+;FORMULARIO
+
+JGLOBAL_NAME = "Nome do Parceiro"
+
+COM_CLUB_NEW_CLUB = "Novo Parceiro"
+COM_CLUB_EDIT_CLUB = "Editar Parceiro"
+
+JGLOBAL_SUBTITLE = "Subtítulo"
+COM_CLUBS_FIELD_LOGO_LABEL = "Logo"
+COM_CLUBS_FIELD_LOGO_DESC = "Logo da Empresa"
+JFIELD_DISCOUNT_LABEL = "Desconto"
+JFIELD_DISCOUNT_DESC = "Informe o desconto e condições"
+JFIELD_ADDRESS_LABEL = "Endereço"
+JFIELD_CNPJ_LABEL = "CNPJ"
+JGLOBAL_OBSERVATION = "Observações"
+JGLOBAL_KEYWORDS = "Palavras-Chaves"
+COM_CLUBS_FIELD_KEYWORDS_DESC = "Insira as palavras que identificarão esse Parceiro pelo campo de pesquisa do site"
+
+
+

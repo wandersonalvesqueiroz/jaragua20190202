@@ -1,0 +1,44 @@
+#form-secretaria{
+    padding: 20px;
+}
+#form-secretaria .form-secretaria {
+    width: 100%;
+    display: table;
+}
+
+#form-secretaria .form-secretaria > div {
+    margin: auto;
+    display: table;
+    width: 100%;
+}
+
+#form-secretaria .form-secretaria > div fieldset {
+    margin: auto;
+}
+
+#form-secretaria .form-secretaria > div fieldset input {
+    width: calc(100% - 24px);
+    padding: 5px 12px;
+    border: 0;
+    color: #676565;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#form-secretaria .form-secretaria > div fieldset input.btn {
+    width: auto;
+    color: #0a3d57;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    font-size: 14px;
+    background-color: #FFF;
+    border-radius: 5px;
+    margin: 10px auto 0.5px auto;
+}
+
+#form-secretaria .form-secretaria > div fieldset input.btn:hover {
+    background-color: #EEE;
+    margin-top: 10.5px;
+    margin-bottom: 0;
+}

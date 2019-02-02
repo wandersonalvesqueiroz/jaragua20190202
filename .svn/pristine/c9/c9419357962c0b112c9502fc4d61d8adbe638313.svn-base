@@ -1,0 +1,19 @@
+#modassociates {
+
+}
+
+#modassociates .btn-associates {
+    background-color: #41583e;
+    color: #FFF;
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#modassociates .btn-associates:hover {
+    background-color: #183d13;
+}

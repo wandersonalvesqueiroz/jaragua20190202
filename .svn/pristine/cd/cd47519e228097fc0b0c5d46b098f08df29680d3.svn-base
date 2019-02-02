@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<metadata>
+	<layout title="COM_CLUBS_CLUBS_VIEW_DEFAULT_TITLE">
+		<message>COM_CLUBS_CLUBS_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<fields name="request">
+		<fieldset name="request"
+				  addfieldpath="/administrator/components/com_clubs/models/fields">
+
+			<field name="text_intro"
+				   type="editor"
+				   label="Texto Introdutório"
+				   filter="JComponentHelper::filterText"
+			/>
+
+		</fieldset>
+	</fields>
+
+</metadata>

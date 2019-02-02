@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1" method="upgrade">
+	<name>com_clubs</name>
+	<author>Wanderson</author>
+	<creationDate>Fevereiro 2018</creationDate>
+	<copyright>Todos os Direitos Reservados a SDrummond</copyright>
+	<authorEmail>wandersonmg18@gmail.com</authorEmail>
+	<version>1.0</version>
+	<description>COM_CLUBS_XML_DESCRIPTION</description>
+
+	<install> <!-- Runs on install -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall> <!-- Runs on uninstall -->
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+
+	<files folder="site">
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+                <folder>language</folder>
+                <folder>models</folder>
+		<folder>views</folder>
+                <filename>clubs.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>router.php</filename>
+	</files>
+        <languages foldes="site">
+            <language tag="pt-BR">language/pt-BR.com_clubs.ini</language>
+        </languages>
+	<administration>
+		<menu img="class:clubs">com_clubs</menu>
+		<submenu>
+			<menu link="option=com_clubs" view="clubs" img="class:clubs" alt="Clubs/Clubs">com_clubs_clubs</menu>
+			<menu link="option=com_categories&amp;extension=com_clubs" view="categories" img="class:clubs-cat" alt="Clubs/Categories">com_clubs_categories</menu>
+		</submenu>
+		<files folder="admin">
+                        <folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+                        <folder>language</folder>
+                        <folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+                        <filename>clubs.php</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>			
+		</files>
+		<languages foldes="admin">
+                    <language tag="pt-BR">language/pt-BR.com_clubs.ini</language>
+                    <language tag="pt-BR">language/pt-BR.com_clubs.sys.ini</language>
+                </languages>
+	</administration>
+</extension>
+
